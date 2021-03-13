@@ -19,6 +19,7 @@
 		margin:0;
 		padding:0;
 		color:var(--grey);
+		font-family: Avenir;
 	}
 	body{
 		background: linear-gradient(180deg, #323132 0%, rgba(23,23,23,1) 50%, rgba(3,3,3,1) 100%);
