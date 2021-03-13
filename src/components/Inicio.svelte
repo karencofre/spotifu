@@ -6,6 +6,7 @@
     height: 100%;
     color: white;
     padding-left:2em ;
+    padding-right: 2em;
   }
   .Inicio h2{
     padding-bottom:0.125em ;
