@@ -1,8 +1,15 @@
 <script></script>
 <style>
-  .Inicio{
+
+  @media screen and (min-width:768px){
+  
+  }
+  @media screen and (min-width:1024px){
+    .Inicio{
+      
     width: 68.25em;
-    height:37.8125em;
+    /* height:37.8125em; */
+    height: max-content;
     color: white;
     padding-left:2em ;
     padding-right: 2em;
@@ -56,22 +63,7 @@
     overflow-x: scroll;
     scroll-behavior: smooth;
   }
-  @media screen and (max-width:1366px){
-    .Inicio{
-      position:relative;
-      left:0;
-    width: 68.25em;
-    height:37.8125em;
-    }
-  }
-  @media screen and (max-width:1024px){
-    .Inicio{
-      position:relative;
-    left:14em ;
-    width: 100%;
-    height: 100%;
-    }
-  }
+}
   
 </style>
 <div class="Inicio">
