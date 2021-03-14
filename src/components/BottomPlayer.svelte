@@ -61,6 +61,8 @@
     border: var(--grey) 1px solid;
     background-color: var(--grey);
   }
+  /* responsive */
+ 
 </style>
 <div class="BottomPlayer">
   <div class="info-song">

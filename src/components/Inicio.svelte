@@ -1,12 +1,17 @@
 <script></script>
 <style>
   .Inicio{
-    width: 68.25em;
+    /* width: 68.25em; */
     /* height:37.8125em; */
+    position:relative;
+    left:14em ;
+    width: 100%;
     height: 100%;
     color: white;
     padding-left:2em ;
     padding-right: 2em;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
   }
   .Inicio h2{
     padding-bottom:0.125em ;
@@ -48,6 +53,8 @@
   nav, scroll-container{
     display:flex;
     text-align: center;
+    justify-content: center;
+    align-items: center;
   }
   scroll-container{
     overflow-x: scroll;

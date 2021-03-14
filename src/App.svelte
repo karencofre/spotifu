@@ -23,6 +23,11 @@
 	}
 	body{
 		background: linear-gradient(180deg, #323132 0%, rgba(23,23,23,1) 50%, rgba(3,3,3,1) 100%);
+		position: absolute;
+		top:0;
+		bottom: 0;
+		right: 0;
+		left:0 ;
 	}
 	.flexbox{
 		display: flex;

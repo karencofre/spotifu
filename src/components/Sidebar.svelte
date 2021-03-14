@@ -2,8 +2,11 @@
 <style>
   .Sidebar{
     background-color: var(--black-1);
+    /* height:42em; */
+    position: relative;
+    bottom: 0;
+    height: 100%;
     width:14em;
-    height:42em; 
   }
   .Sidebar .frame{
     padding-top:2.5em;
