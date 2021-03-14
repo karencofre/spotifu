@@ -1,12 +1,8 @@
 <script></script>
 <style>
   .Inicio{
-    /* width: 68.25em; */
-    /* height:37.8125em; */
-    position:relative;
-    left:14em ;
-    width: 100%;
-    height: 100%;
+    width: 68.25em;
+    height:37.8125em;
     color: white;
     padding-left:2em ;
     padding-right: 2em;
@@ -60,7 +56,22 @@
     overflow-x: scroll;
     scroll-behavior: smooth;
   }
-  
+  @media screen and (max-width:1366px){
+    .Inicio{
+      position:relative;
+      left:0;
+    width: 68.25em;
+    height:37.8125em;
+    }
+  }
+  @media screen and (max-width:1024px){
+    .Inicio{
+      position:relative;
+    left:14em ;
+    width: 100%;
+    height: 100%;
+    }
+  }
   
 </style>
 <div class="Inicio">
