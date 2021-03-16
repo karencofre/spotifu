@@ -40,7 +40,8 @@
     display: flex;
   }
   .card{
-    width: 10.375em;
+    width: 166px;
+    height: 262px;
     margin-top: 1.5em;
     margin-right: 1em;
   }
@@ -156,6 +157,9 @@
  <nav class="heading">
     <h4>Escuchado Recientemente</h4>
     <div class="control-arrow">
+      <a href="#page-1"><img src="../assets/Chevron-left.svg" alt="flecha left"></a>
+    <a href="#page-2"><img src="../assets/Chevron-right.svg" alt="flecha right"></a>
+    
     </div>
   </nav>
   <hr>
