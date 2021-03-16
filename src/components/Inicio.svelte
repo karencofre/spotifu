@@ -1,10 +1,6 @@
 <script></script>
 <style>
 
-  @media screen and (min-width:768px){
-  
-  }
-  @media screen and (min-width:1024px){
     .Inicio{
       
     width: 68.25em;
@@ -64,8 +60,7 @@
     overflow-x: scroll;
     scroll-behavior: smooth;
   }
-}
-  
+
 </style>
 <div class="Inicio">
   <h2>Inicio</h2>
